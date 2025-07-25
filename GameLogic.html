@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mechanics</title>
+    </head>
+
+    <style>
+
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        img{
+            height: 75px;
+            width: 75px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        body{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+            height: 100vh;
+            padding: 20px;
+        }
+
+        body .box{
+            background-color: black;
+            color: white;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            margin: 20px;
+            transition: transform .4s ease, background-color .4s ease, box-shadow .4s ease, color .4s ease;
+        }
+
+        body .box:hover{
+            transform: scale(1.1);
+            background-color: green;
+            color: black;
+            box-shadow: 0px 0px 8px 8px black;
+        }
+
+        body .box .weapon{
+            text-align: center;
+        }
+
+        body .box .beats{
+            text-align: center;
+        }
+
+        body .box .loses{
+            text-align: center;
+        }
+        
+    </style>
+
+    <body>
+        <section class="box">
+            <div class="weapon">
+                <h1>Rock</h1>
+                <img src="img/rock.jpg">
+            </div>
+            <div class="beats">
+                <h3>Beats</h3>
+                <p>Scissor, Sigma, Tung Tung Sahur</p>
+            </div>
+            <div class="loses">
+                <h3>Loses</h3>
+                <p>Paper, BossLiam, Sal</p>
+            </div>
+        </section>
+        <section class="box">
+            <div class="weapon">
+                <h1>Paper</h1>
+                <img src="img/paper.png">
+            </div>
+            <div class="beats">
+                <h3>Beats</h3>
+                <p>Rock, Chano Taper Fade, Tung Tung Sahur</p>
+            </div>
+            <div class="loses">
+                <h3>Loses</h3>
+                <p>Scissor, Soldier, Sal</p>
+            </div>
+        </section>
+        <section class="box">
+            <div class="weapon">
+                <h1>Scissor</h1>
+                <img src="img/scissor.jpg">
+            </div>
+            <div class="beats">
+                <h3>Beats</h3>
+                <p>Paper, Sigma, Chano Taper Fade</p>
+            </div>
+            <div class="loses">
+                <h3>Loses</h3>
+                <p>Rock, BossLiam, Soldier</p>
+            </div>
+        </section>
+        <section class="box">
+            <div class="weapon">
+                <h1>BossLiam</h1>
+                <img src="img/bossliam.jpg">
+            </div>
+            <div class="beats">
+                <h3>Beats</h3>
+                <p>Rock, Scissor, Sal</p>
+            </div>
+            <div class="loses">
+                <h3>Loses</h3>
+                <p>Chano Taper Fade, Sigma, Soldier</p>
+            </div>
+        </section>
+        <section class="box">
+            <div class="weapon">
+                <h1>Chano Taper Fade</h1>
+                <img src="img/chano.png">
+            </div>
+            <div class="beats">
+                <h3>Beats</h3>
+                <p>BossLiam, Paper, Sal</p>
+            </div>
+            <div class="loses">
+                <h3>Loses</h3>
+                <p>Scissor, Rock, Tung Tung Sahur</p>
+            </div>
+        </section>
+        <section class="box">
+            <div class="weapon">
+                <h1>Soldier</h1>
+                <img src="img/soldier.png">
+            </div>
+            <div class="beats">
+                <h3>Beats</h3>
+                <p>Paper, BossLiam, Scissor</p>
+            </div>
+            <div class="loses">
+                <h3>Loses</h3>
+                <p>Rock, Sigma, Tung Tung Sahur</p>
+            </div>
+        </section>
+        <section class="box">
+            <div class="weapon">
+                <h1>Sal</h1>
+                <img src="img/sal.jpeg">
+            </div>
+            <div class="beats">
+                <h3>Beats</h3>
+                <p>Rock, Paper, Scissor</p>
+            </div>
+            <div class="loses">
+                <h3>Loses</h3>
+                <p>Chano Taper Fade, BossLiam, Scissor</p>
+            </div>
+        </section>
+        <section class="box">
+            <div class="weapon">
+                <h1>Sigma</h1>
+                <img src="img/sigma.jpg">
+            </div>
+            <div class="beats">
+                <h3>Beats</h3>
+                <p>Chano Taper Fade, Soldier, BossLiam</p>
+            </div>
+            <div class="loses">
+                <h3>Loses</h3>
+                <p>Sal, Rock, Paper</p>
+            </div>
+        </section>
+        <section class="box">
+            <div class="weapon">
+                <h1>Tung Tung Sahur</h1>
+                <img src="img/sahur.png">
+            </div>
+            <div class="beats">
+                <h3>Beats</h3>
+                <p>Chano Taper Fade, Soldier, BossLiam</p>
+            </div>
+            <div class="loses">
+                <h3>Loses</h3>
+                <p>Rock, Scissor, Sigma</p>
+            </div>
+        </section>
+    </body>
+</html>
