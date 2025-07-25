@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rock Paper Scissor Version 08.23.2006</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <section class="score">
+                <h1 id="player1">Player: 0</h1>
+                <h1 id="player2">Enemy: 0</h1>
+            </section>
+            <section class="choices">
+                <button id="rock"><img src="img/rock.jpg"></button>
+                <button id="paper"><img src="img/paper.png"></button>
+                <button id="scissor"><img src="img/scissor.jpg"></button>
+                <button id="bossliam"><img src="img/bossliam.jpg"></button>
+                <button id="chano"><img src="img/chano.png"></button>
+                <button id="soldier"><img src="img/soldier.png"></button>
+                <button id="sal"><img src="img/sal.jpeg"></button>
+                <button id="sigma"><img src="img/sigma.jpg"></button>
+                <button id="sahur"><img src="img/sahur.png"></button>
+            </section>
+            <a href="GameLogic.html" target="_blank">Read Logic</a>
+            <section class="display">
+                <div>
+                    <h3>Player Pick</h3>
+                    <input readonly id="playerpick">
+                </div>
+                <div>
+                    <h3>Enemy Pick</h3>
+                    <input readonly id="enemypick">
+                </div>
+                <div>
+                    <h3>Result</h3>
+                    <input readonly id="result">
+                </div>
+            </section>
+            <button id="btn">Play</button>
+        </div>
+        
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </body>
+
+    
+</html>
