@@ -1,0 +1,107 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 50px;
+}
+
+body .container{
+    max-width: 400px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 10px black;
+}
+
+body .container .score{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+body .container .choices{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+body .container .choices button{
+    margin: 5px;
+    cursor: pointer;
+}
+
+body .container .display{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+body .container .display div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+body .container .display div input{
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+body .container #btn{
+    display: flex;
+    align-self: center;
+    font-size: 30px;
+    padding: 5px 100px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    border-style: none;
+    transition: background-color .4s ease;
+}
+
+body .container a{
+    text-align: center;
+    color: white;
+}
+
+body .container a:hover{
+    color: green;
+}
+
+body .container #btn:hover{
+    background-color: green;
+}
+
+@media (max-width: 375px){
+
+    img{
+        width: 50px;
+        height: 50px;
+    }
+
+    body .container #btn{
+        padding: 5px 50px;
+    }
+}
